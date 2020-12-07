@@ -1,0 +1,109 @@
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.font-style1{
+    font-family: Raleway !important;
+    font-size: 200% !important;
+}
+
+.font-style2{
+    font-family: Raleway !important;
+    font-size: 175% !important;
+}
+
+.font-style3{
+    font-family: Raleway !important;
+    font-size: 150% !important;
+}
+
+.font-style4{
+    font-family: Raleway !important;
+    font-size: 125% !important;
+}
+
+.font-style5{
+    font-family: Raleway !important;
+    font-size: 100% !important;
+}
+
+.font-style6{
+    font-family: Raleway !important;
+    font-size: 75% !important;
+}
+.SectionTitle{
+    padding-top: 20px;
+    font-size: 150%;
+    font-weight: 800;
+    padding-left: 30px;
+}
+.bd-highlight{
+    background-color: rgba(222,222,222,.15);
+    border: 1px solid rgba(222,222,222,.15);
+}
+
+#pageContainer{
+    width: 90%;
+    margin:auto;
+    
+}
+
+.menuContainer{
+    width: 92.75%;
+    margin:auto;
+}
+.fixedMenuContainer{
+    position: fixed;
+}
+
+.border-10{
+    border-width: 10px;
+    border-style: solid;
+}
+
+section{
+    margin-top: 50px !important;
+}
+
+.home{
+    background-image: url("../images/Software\ development\ concept.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width:90%;
+    margin:auto;
+}
+.home > div{
+    height:100vh;
+    background-color: rgba(22,22,22,.6);
+}
+
+.home .TypedHome{
+    border-bottom: 2px solid maroon;
+    font-size: 130%;
+    padding-bottom: 4px;
+}
+
+.about,.resume, .contact{
+    width: 90%;
+    margin: auto;
+    background-color: #eae2b7;  
+}
+
+.uhr{
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.dhr{
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
