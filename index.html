@@ -23,6 +23,28 @@
 </head>
 
 <body class="bg-light">
+
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        appId: '{your-app-id}',
+        cookie: true,
+        xfbml: true,
+        version: '{api-version}'
+      });
+
+      FB.AppEvents.logPageView();
+
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) { return; }
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
   <div id="pageContainer"></div>
 
   <!--nav class="navbar navbar-expand-md navbar-light sticky-top menuContainer" id="navbar">
@@ -328,7 +350,8 @@
           <div class="row">
 
             <div class="card col-12 col-md-5 text-center" style="width: 40%;">
-              <img class="card-img-top" src="images/phone.png" style="width: 40%; margin-left: 100px;" alt="Card image cap">
+              <img class="card-img-top" src="images/phone.png" style="width: 40%; margin-left: 100px;"
+                alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">Phone calls, text messages or wahtsapp: +962789303399.</p>
               </div>
@@ -336,7 +359,7 @@
             <div class="col-12 col-md-1"></div>
 
             <div class="card col-12 col-md-5" style="width: 40%;">
-              <img class="card-img-top" src="images/email.png"  alt="Card image cap">
+              <img class="card-img-top" src="images/email.png" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">Emails: ahmadslmn310@gmail.com.</p>
               </div>
