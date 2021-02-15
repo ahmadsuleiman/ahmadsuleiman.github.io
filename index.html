@@ -24,29 +24,15 @@
   <script src="vendor/typed/typed.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="vendor/style.css">
-  <script>
-    !function (f, b, e, v, n, t, s) {
-      if (f.fbq) return; n = f.fbq = function () {
-        n.callMethod ?
-          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-      };
-      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-      n.queue = []; t = b.createElement(e); t.async = !0;
-      t.src = v; s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '367761807576582');
-    fbq('track', 'PageView');
-  </script>
 </head>
 
 <body class="bg-light">
 
+  <!--
   <script>
     window.fbAsyncInit = function () {
       FB.init({
-        appId: '3705687549498616',
+        appId: '805198127083988',
         cookie: true,
         xfbml: true,
         version: 'v9.0'
@@ -64,6 +50,7 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
+  -->
   <div id="pageContainer"></div>
 
   <!--nav class="navbar navbar-expand-md navbar-light sticky-top menuContainer" id="navbar">
@@ -138,6 +125,7 @@
       </div>
     </aside>
   </header>
+
   <button onclick='FB.AppEvents.logEvent("buttonClicked")'>
     Click me
   </button>
